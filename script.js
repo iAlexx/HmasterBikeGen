@@ -125,7 +125,7 @@ document.getElementById('generateMoreBtn').addEventListener('click', () => {
 });
 
 document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-    window.location.href = 'https://t.me/pdosi_project';
+    window.location.href = 'https://t.me/iAlexMG';
 });
 
 function generateClientId() {
