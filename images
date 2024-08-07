@@ -1,1 +1,7 @@
-
+HmasterBikeGen/
+  ├── index.html
+  ├── styles.css
+  ├── images/
+  │   ├── button-bg.jpg
+  │   ├── background.jpg
+  │   └── select-bg.jpg
