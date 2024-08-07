@@ -1,19 +1,20 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #2c003e;
+    background-color: #000000; /* أسود */
     margin: 0;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #ffffff; /* أبيض */
 }
 
 .container {
-    background-color: #1e0027;
+    background-color: #222222; /* لون رمادي داكن */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* ظل داكن */
     width: 100%;
     max-width: 400px;
     text-align: center;
@@ -21,30 +22,30 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #e0b3ff;
+    color: #ff0000; /* أحمر */
 }
 
 label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #d1a3ff;
+    color: #ff3333; /* أحمر فاتح */
 }
 
 select {
     padding: 10px;
     width: 100%;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #444; /* لون رمادي داكن */
     border-radius: 4px;
-    background-color: #4b006e;
-    color: #e0b3ff;
+    background-color: #333333; /* لون رمادي داكن */
+    color: #ffffff; /* أبيض */
 }
 
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6a0080;
+    background-color: #ff0000; /* أحمر */
     color: white;
     border: none;
     border-radius: 4px;
@@ -55,7 +56,7 @@ select {
 }
 
 .button:hover {
-    background-color: #4a004d;
+    background-color: #cc0000; /* أحمر داكن */
 }
 
 .progress-container {
@@ -67,7 +68,7 @@ select {
 .progress-bar {
     width: 0%;
     height: 20px;
-    background-color: #8a00b0;
+    background-color: #ff0000; /* أحمر */
     border-radius: 4px;
     transition: width 0.3s;
 }
@@ -75,7 +76,7 @@ select {
 .progress-text {
     margin-left: 10px;
     font-weight: bold;
-    color: #d1a3ff;
+    color: #ffffff; /* أبيض */
 }
 
 .key-container {
@@ -83,7 +84,7 @@ select {
 }
 
 .key-container h2 {
-    color: #d1a3ff;
+    color: #ff3333; /* أحمر فاتح */
 }
 
 .keys-list {
@@ -94,9 +95,9 @@ select {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #2c003e;
+    background-color: #333333; /* لون رمادي داكن */
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #444; /* لون رمادي داكن */
     border-radius: 4px;
     word-wrap: break-word;
 }
@@ -105,7 +106,7 @@ select {
     flex-grow: 1;
     border: none;
     background: transparent;
-    color: #e0b3ff;
+    color: #ffffff; /* أبيض */
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -113,7 +114,7 @@ select {
 
 .key-item button {
     margin-left: 10px;
-    background-color: #6a0080;
+    background-color: #ff0000; /* أحمر */
     border: none;
     padding: 5px 10px;
     border-radius: 4px;
@@ -123,7 +124,7 @@ select {
 }
 
 .key-item button:hover {
-    background-color: #000000;
+    background-color: #cc0000; /* أحمر داكن */
 }
 
 .hidden {
@@ -132,6 +133,6 @@ select {
 
 .copy-status {
     margin-top: 10px;
-    color: #d1a3ff;
+    color: #ff3333; /* أحمر فاتح */
     font-weight: bold;
 }
